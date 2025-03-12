@@ -43,7 +43,6 @@ function App() {
                 id="feed"
                 className={isAnimating ? 'glow' : ''}
                 style={{
-                    width: '800px',
                     height: '5px',
                     margin: '20px auto',
                     display: 'flex',

@@ -16,7 +16,10 @@ body {
   background: linear-gradient(65deg, rgba(47, 33, 241, 0.7), rgba(255, 115, 0, 0.7), rgba(0, 0, 255, 0.7), rgba(255, 255, 0, 0.7));
   background-size: 400% 400%;
   padding: 1px; 
+  max-width: 800px;
+  width: 100%;
 }
+
 
 @keyframes glow-animation {
   0% {
