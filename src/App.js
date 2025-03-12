@@ -45,14 +45,13 @@ function App() {
                 style={{
                     width: '800px',
                     height: '5px',
-                    borderRadius: '10px',
                     margin: '20px auto',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
                     color: 'white',
                     backgroundColor: '#282c34',
-                    boxShadow: isAnimating ? '0 0 20px rgba(255, 255, 255, 0.5)' : 'none',
+                    boxShadow: isAnimating ? '0 0 120px red' : 'none',
                 }}
             >
                 {animationData !== null ? `Animation Frame: ${animationData}` : ''}
